@@ -13,6 +13,7 @@ This example requires an active internet connection since it uses
 yahoo finance to get the data for plotting
 """
 
+from mpl_finacne import candlestick_ohlc
 import matplotlib.pyplot as plt
 import pandas as pd
 from matplotlib.dates import DateFormatter, MonthLocator, YearLocator
