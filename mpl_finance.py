@@ -19,6 +19,9 @@ from six.moves import xrange, zip
 def plot_day_summary_oclh(ax, quotes, ticksize=3,
                           colorup='k', colordown='r'):
     """Plots day summary
+    
+    
+    
 
         Represent the time, open, close, high, low as a vertical line
         ranging from low to high.  The left tick is the open and the right
